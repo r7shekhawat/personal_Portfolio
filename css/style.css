@@ -35,6 +35,54 @@ p{
 }
 
 
+
 .header-mypic img{
     width: 100%;
 }
+.logo{
+    
+    padding-bottom: 50px;
+    
+}
+.header-text h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+}
+.header-text p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight : 300;
+    
+}
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.btn-about,
+.btn-about:focus,
+.btn-about:active,
+.btn-about:visited{
+    
+    background:transparent;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+
+
+
+
+
