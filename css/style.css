@@ -16,6 +16,40 @@ p{
     
 }
 
+
+/*====Genral css===*/
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3; 
+    margin-left: -30px;
+    
+    
+}
+.section-title p{
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 25px;
+}
+
 /*======Header=====*/
 .header{
     
@@ -79,10 +113,84 @@ p{
     font-size: 19px;
     text-transform: uppercase;
     border-radius: 3px;
+    transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+}
+.btn-about:hover{
+    background-color: #129CF3;
+    color: #fff;
+    
 }
 
+.picture{
+    width: 100%;
+    
+}
 
+/*=====About me===*/
+.more-info{
+    padding: 50px;
+    
+}
+.mypic{
+    padding: 8px;
+    
+}
+.info{
+    padding-bottom: 50px;
+}
+.info h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    position: relative;
+    
+}
+.info h2:after{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129CF3; 
+}
+.info p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
 
+.more-info-items {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+.more-info-items div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.more-info-items div i {
+    font-size: 55px;
+    color: #129CF3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.more-info-items h3 {
+ color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
 
-
+.more-info-items p {
+    color: #727272;
+    font-size: 15px;
+} 
 
