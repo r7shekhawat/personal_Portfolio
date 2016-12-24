@@ -77,3 +77,23 @@ $(document).ready(function() {
     
     
 });
+
+
+/* active menu item on click */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    
+    $('.navbar-nav li a').click(function(){
+        
+        'use strict';
+        
+        $('.navbar-nav li a').parent().removeClass("active");
+        
+        $(this).parent().addClass("active");
+    
+    });
+});
+
+
